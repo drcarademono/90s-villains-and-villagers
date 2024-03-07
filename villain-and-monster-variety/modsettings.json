@@ -1,0 +1,42 @@
+{
+    "Version": "1",
+    "Sections": [
+        {
+            "Name": "Core",
+            "Description": "Main settings",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": true,
+                    "Name": "EnemyFaces",
+                    "Description": "Whether enemies have custom faces",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "Compatibility",
+            "Description": "Compatibility with other mods",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "ForceNoNudity",
+                    "Description": "Forces Ninelan's No Nudity sprites, even if the mod is not used",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": false,
+                    "Name": "ForceHelmetSwap",
+                    "Description": "Forces Ralzar's Helmet Swap sprites, even if the mod is not used",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}
